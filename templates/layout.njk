@@ -1,0 +1,27 @@
+<!-- layout.nunjucks -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <nav>
+        <a>Home</a>
+        <a>About</a>
+        <a>Products</a>
+        <a>Contact</a>
+    </nav>
+    <br>
+    {% block content %} {% endblock %}
+    <br>
+    <footer>
+      <a>GitHub</a>
+      <a>Twitter</a>
+      <a>LinkedIn</a>
+    </footer>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
