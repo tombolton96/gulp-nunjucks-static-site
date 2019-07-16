@@ -1,0 +1,10 @@
+{% extends "layout.njk" %}
+{% import "macros/_header.njk" as header %}
+
+{% block header %}
+{{ header.renderHeader('about') }}
+{% endblock %}
+
+{% block content %}
+  <h1>This is what we do</h1>
+{% endblock %}

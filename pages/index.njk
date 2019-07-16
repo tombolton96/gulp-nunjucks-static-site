@@ -1,0 +1,10 @@
+{% extends "layout.njk" %}
+{% import "macros/_header.njk" as header %}
+
+{% block header %}
+{{ header.renderHeader('index') }}
+{% endblock %}
+
+{% block content %}
+  <h1>This is the index page</h1>
+{% endblock %}
